@@ -98,7 +98,8 @@ If the NAT IP obtained from dhclient was something other than 10.0.2.15, you can
 
 [openstack@openstack ~]$ **sudo ifconfig enp0s3 10.0.2.15 netmask 255.255.255.0**
 
-To open the ssh terminal from the PC/Laptop's Putty or ssh client, use the command: **ssh openstack@localhost -p 2222**
+Try to open an ssh terminal from the host PC/Laptop's Putty or ssh client.
+Use the command: **ssh openstack@localhost -p 2222**
 
 If, this does not work, then the NAT Port Forwarding is not working properly.
 
