@@ -50,7 +50,7 @@ c.Under Centos-openstack -> Settings -> Network -> Adapter 1 (NAT), Click the "P
 
 d. Check the Settings page of your Centos-openstack VM. It should more-or-less be having the following settings:
 
-![alt tag](https://raw.githubusercontent.com/aswath1991/Preinstalled-Openstack-VirtualBox-x64/master/Requirements/VBox%20Requirements.png)
+![alt tag](https://raw.githubusercontent.com/aswath1991/Preinstalled-Openstack-VirtualBox-x64/master/Requirements/VBox.png)
 
 
 Now start the VM. Let it load. Use the following PC credentials:
