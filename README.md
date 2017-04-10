@@ -3,6 +3,7 @@ A Pre-installed Openstack CentOS 7 x64 image that can be directly imported onto 
 
 
 Preface:
+
 I have spent hours setting up every solution out there to test Openstack. None of them are actually easy considering the heavy PC requirements and the time taken to build the Openstack modules from scratch. This solution would absolutely remove the hassle of installing Openstack, before being able to test it out. This solution does not require you to install any other application other than VirtualBox on your PC/Laptop. Openstack uses a lot of CPU and Memory resources. Please ensure that all  your other applications have been saved/closed before running this VM.
 
 
@@ -33,6 +34,7 @@ Installation Instructions:
 
 
 VM Settings:
+
 a. Under Settings -> USB (turn off USB controller) if it shows up as invalid settings. Adjust your RAM to be at or below 80 % of your actual PC's Memory capacity.
 
 
