@@ -18,9 +18,9 @@ I have spent hours setting up every solution out there to test Openstack. None o
 
 Note: You can always increase the RAM, Hard Disk space and the CPU Cores based on your Openstack requirements. Higher configuration is required for running Virtual instances within Openstack smoothly.
 
-
+---
 **Download the Centos-openstack compressed VirtualBox Image from:** https://drive.google.com/file/d/0Bw59oF2-DxdELUd0Qy1xY21Jc0E/view?usp=sharing
-
+---
 
 ## Installation Instructions:
 
@@ -62,18 +62,18 @@ Now start the VM. Let it load. Use the following PC credentials:
 
 In the console, run the following command: sudo dhclient enp0s3
 
-[openstack@openstack ~]$ sudo dhclient enp0s3
+[openstack@openstack ~]$ **sudo dhclient enp0s3**
 
 Provide the "openstack" password.
 
 Now, check if you have obtained the 10.0.2.15 IP for enp0s3 interface using the command: ifconfig
 
-[openstack@openstack ~]$ ifconfig
+[openstack@openstack ~]$ **ifconfig**
 
 ![alt tag](https://raw.githubusercontent.com/aswath1991/Preinstalled-Openstack-VirtualBox-x64/master/Requirements/10.0.2.15%20NAT%20IP.png)
 
 
-This may not work properly if you get any other IP than 10.0.2.15. From your PC/Laptop's browser you should access the following website: http://localhost:8888
+This may not work properly if you get any other IP than 10.0.2.15. From your PC/Laptop's browser you should access the following website: **http://localhost:8888**
 
 Openstack's horizon web dashboard should appear with login credentials screen appearing first. 
 
@@ -93,9 +93,9 @@ If your Openstack web dashboard does not come up properly, check if your local p
 
 If the NAT IP obtained from dhclient was something other than 10.0.2.15, you can try this command and check if your Horizon web dashboard opens up from your PC after issuing this command:
 
-[openstack@openstack ~]$ sudo ifconfig enp0s3 10.0.2.15 netmask 255.255.255.0
+[openstack@openstack ~]$ **sudo ifconfig enp0s3 10.0.2.15 netmask 255.255.255.0**
 
-
+---
 Cheers trying out Openstack, the hassle-free way!
 
 Let me know if you have improvements.
