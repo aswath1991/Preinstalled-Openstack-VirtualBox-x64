@@ -22,7 +22,7 @@ This method uses a pre-installed packstack Openstack binary. These binaries are 
 Note: You can always increase the RAM, Hard Disk space and the CPU Cores based on your Openstack requirements. Higher configuration is required for running Virtual instances within Openstack smoothly.
 
 ---
-**Download the Centos-openstack compressed VirtualBox Image from:** https://drive.google.com/file/d/0Bw59oF2-DxdELUd0Qy1xY21Jc0E/view?usp=sharing
+**Download the Centos-openstack compressed VirtualBox Image from:** https://drive.google.com/open?id=0Bw59oF2-DxdEU2hrb3AwN2RicFk
 ---
 
 ## Installation Instructions:
