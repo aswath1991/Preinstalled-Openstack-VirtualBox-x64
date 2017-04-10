@@ -1,10 +1,13 @@
 # Preinstalled-Openstack-VirtualBox-x64
-A Pre-installed Openstack CentOS 7 x64 image that can be directly imported onto VirtualBox.
+
+A Pre-installed Openstack CentOS 7 x64 image that can be directly imported onto VirtualBox. You can literally setup and test Openstack in under 10 minutes. There's no need to install Openstack using this VirtualBox (.vbox/.vdi) image.
 
 
 ## Preface:
 
 I have spent hours setting up every solution out there to test Openstack. None of them are actually easy considering the heavy PC requirements and the time taken to build the Openstack modules from scratch. This solution would absolutely remove the hassle of installing Openstack, before being able to test it out. This solution does not require you to install any other application other than VirtualBox on your PC/Laptop. Openstack uses a lot of CPU and Memory resources. Please ensure that all  your other applications have been saved/closed before running this VM.
+
+This method uses a pre-installed packstack Openstack binary. These binaries are installed on an IP address: 10.0.2.15, which is the default NAT IP that VirtualBox assigns a new machine using a NAT Adapter.
 
 
 ## Minimum Requirements:
