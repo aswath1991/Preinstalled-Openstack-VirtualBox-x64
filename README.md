@@ -2,12 +2,12 @@
 A Pre-installed Openstack CentOS 7 x64 image that can be directly imported onto VirtualBox.
 
 
-Preface:
+## Preface:
 
 I have spent hours setting up every solution out there to test Openstack. None of them are actually easy considering the heavy PC requirements and the time taken to build the Openstack modules from scratch. This solution would absolutely remove the hassle of installing Openstack, before being able to test it out. This solution does not require you to install any other application other than VirtualBox on your PC/Laptop. Openstack uses a lot of CPU and Memory resources. Please ensure that all  your other applications have been saved/closed before running this VM.
 
 
-Minimum Requirements:
+## Minimum Requirements:
 
 - x64 compatible PC/Laptop that supports x64 compatible Virtual hosts
 - Latest VirtualBox application installed on your PC/Laptop
@@ -19,10 +19,10 @@ Minimum Requirements:
 Note: You can always increase the RAM, Hard Disk space and the CPU Cores based on your Openstack requirements. Higher configuration is required for running Virtual instances within Openstack smoothly.
 
 
-Download the Centos-openstack compressed VirtualBox Image from: https://drive.google.com/file/d/0Bw59oF2-DxdELUd0Qy1xY21Jc0E/view?usp=sharing
+**Download the Centos-openstack compressed VirtualBox Image from:** https://drive.google.com/file/d/0Bw59oF2-DxdELUd0Qy1xY21Jc0E/view?usp=sharing
 
 
-Installation Instructions:
+## Installation Instructions:
 
 1. Download and Extract the zip file onto "VirtualBox VMs" folder located under your Users/<username> folder in your PC.
 
@@ -33,7 +33,7 @@ Installation Instructions:
 4. Ensure that the Centos-openstack -> Settings page does not have any invalid settings. Also ensure that the following configurations are properly in-place:
 
 
-VM Settings:
+## VM Settings:
 
 a. Under Settings -> USB (turn off USB controller) if it shows up as invalid settings. Adjust your RAM to be at or below 80 % of your actual PC's Memory capacity.
 
@@ -55,9 +55,9 @@ d. Check the Settings page of your Centos-openstack VM. It should more-or-less b
 
 Now start the VM. Let it load. Use the following PC credentials:
 
-username: openstack
+**username: openstack**
 
-password: openstack
+**password: openstack**
 
 
 In the console, run the following command: sudo dhclient enp0s3
@@ -79,15 +79,15 @@ Openstack's horizon web dashboard should appear with login credentials screen ap
 
 The credentials are:
 
-username: admin
+**username: admin**
 
-password: openstack
+**password: openstack**
 
 
 This should take to your Openstack console, where you can experiment with Openstack.
 
 
-Debug:
+## Debug:
 
 If your Openstack web dashboard does not come up properly, check if your local port 8888 is not being blocked by your local firewall.
 
