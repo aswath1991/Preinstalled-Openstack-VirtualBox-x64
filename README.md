@@ -78,6 +78,8 @@ Now, check if you have obtained the 10.0.2.15 IP for enp0s3 interface using the 
 
 This may not work properly if you get any other IP than 10.0.2.15. From your PC/Laptop's browser you should access the following website: **http://localhost:8888**
 
+Note: Openstack components may take 5 - 10 minutes to load once the VM has booted up and IP has been configured. Please wait a few minutes or refresh the browser's page if you do not see the Openstack horizon web interface as soon as you put them in your browser for the first time.
+
 Openstack's horizon web dashboard should appear with login credentials screen appearing first. 
 
 The credentials are:
