@@ -28,7 +28,7 @@ Note: You can always increase the RAM, Hard Disk space and the CPU Cores based o
 
 2. Open VirtualBox application and import the contents of the zip file (Using Machine -> Add option). You should see the entry Centos-openstack in your VM after the import.
 
-3. Quit all other applications running in your laptop/PC. Only then run this VM. The preset settings require you have a quad core x64 PC along with 7GB ram at least. Trust me, this isn't enough for Openstack still.
+3. Quit all other applications running in your laptop/PC. Only then run this VM. The preset settings require you have a quad core x64 PC along with 6GB ram at least. Trust me, this isn't enough for Openstack still.
 
 4. Ensure that the Centos-openstack -> Settings page does not have any invalid settings. Also ensure that the following configurations are properly in-place:
 
