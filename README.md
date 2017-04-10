@@ -43,7 +43,7 @@ b. Under Centos-openstack -> Settings -> Network, Check if the NAT Adapter is en
 ![alt tag](https://raw.githubusercontent.com/aswath1991/Preinstalled-Openstack-VirtualBox-x64/master/Requirements/NAT.png)
 
 
-c.Under Centos-openstack -> Settings -> Network -> Click the "Port Forwarding" button and check if the following Port Forwarding options are in-place, else configure them.
+c.Under Centos-openstack -> Settings -> Network -> Adapter 1 (NAT), Click the "Port Forwarding" button and check if the following Port Forwarding options are in-place, else configure them.
 
 ![alt tag](https://raw.githubusercontent.com/aswath1991/Preinstalled-Openstack-VirtualBox-x64/master/Requirements/Port%20Forwarding.png)
 
