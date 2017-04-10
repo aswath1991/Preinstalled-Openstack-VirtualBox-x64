@@ -99,6 +99,10 @@ If your Openstack web dashboard does not come up properly, check if your local p
 If the NAT IP obtained from dhclient was something other than 10.0.2.15, you can try this command and check if your Horizon web dashboard opens up from your PC after issuing this command:
 
 [openstack@openstack ~]$ **sudo ifconfig enp0s3 10.0.2.15 netmask 255.255.255.0**
+[openstack@openstack ~]$ **sudo route add default gw 10.0.2.2 dev enp0s3**
+[openstack@openstack ~]$ **sudo su**
+<Enter "openstack" password>
+[openstack@openstack ~]# **nameserver 8.8.8.8 >> /etc/resolv.conf**
 
 Try to open an ssh terminal from the host PC/Laptop's Putty or ssh client.
 
