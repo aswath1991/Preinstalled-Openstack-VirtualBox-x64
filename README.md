@@ -1,11 +1,13 @@
 # Preinstalled-Openstack-VirtualBox-x64
 A Pre-installed Openstack CentOS 7 x64 image that can be directly imported onto VirtualBox.
 
+
 Preface:
 I have spent hours setting up every solution out there to test Openstack. None of them are actually easy considering the heavy PC requirements and the time taken to build the Openstack modules from scratch. This solution would absolutely remove the hassle of installing Openstack, before being able to test it out. This solution does not require you to install any other application other than VirtualBox on your PC/Laptop. Openstack uses a lot of CPU and Memory resources. Please ensure that all  your other applications have been saved/closed before running this VM.
 
 
 Minimum Requirements:
+
 - x64 compatible PC/Laptop that supports x64 compatible Virtual hosts
 - Latest VirtualBox application installed on your PC/Laptop
 - Atleast 4 GB Hard Drive space
@@ -20,6 +22,7 @@ Download the Centos-openstack compressed VirtualBox Image from: https://drive.go
 
 
 Installation Instructions:
+
 1. Download and Extract the zip file onto "VirtualBox VMs" folder located under your Users/<username> folder in your PC.
 
 2. Open VirtualBox application and import the contents of the zip file (Using Machine -> Add option). You should see the entry Centos-openstack in your VM after the import.
@@ -62,6 +65,7 @@ In the console, run the following command: sudo dhclient enp0s3
 Provide the "openstack" password.
 
 Now, check if you have obtained the 10.0.2.15 IP for enp0s3 interface using the command: ifconfig
+
 [openstack@openstack ~]$ ifconfig
 
 ![alt tag](https://raw.githubusercontent.com/aswath1991/Preinstalled-Openstack-VirtualBox-x64/master/Requirements/10.0.2.15%20NAT%20IP.png)
@@ -69,7 +73,8 @@ Now, check if you have obtained the 10.0.2.15 IP for enp0s3 interface using the 
 
 This may not work properly if you get any other IP than 10.0.2.15. From your PC/Laptop's browser you should access the following website: http://localhost:8888
 
-Openstack's horizon web dashboard should appear with login credentials screen appearing first.
+Openstack's horizon web dashboard should appear with login credentials screen appearing first. 
+
 The credentials are:
 
 username: admin
@@ -85,6 +90,7 @@ Debug:
 If your Openstack web dashboard does not come up properly, check if your local port 8888 is not being blocked by your local firewall.
 
 If the NAT IP obtained from dhclient was something other than 10.0.2.15, you can try this command and check if your Horizon web dashboard opens up from your PC after issuing this command:
+
 [openstack@openstack ~]$ sudo ifconfig enp0s3 10.0.2.15 netmask 255.255.255.0
 
 
